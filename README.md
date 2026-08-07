@@ -17,3 +17,7 @@ If you downloaded the pre-compiled binary file, open your terminal in the folder
 ```bash
 chmod +x rake
 ./rake
+
+Why AES-128?
+
+rake uses Fernet symmetric encryption, which mandates AES-128 in CBC mode paired with HMAC-SHA256 authentication. This provides an optimal balance of robust security, built-in tamper resistance, and zero configuration overhead without needing to reinvent custom cryptographic primitives.
