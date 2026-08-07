@@ -9,15 +9,12 @@ Most encryption tools or password managers are bloated, require cloud accounts, 
 * **Encryption:** Uses AES-128 in CBC mode via the industry-standard `cryptography` library (`Fernet`).
 * **Key Derivation:** Uses **PBKDF2 with SHA-256** and 100,000 iterations combined with a unique random salt per entry to securely turn your passphrase into an encryption key.
 * **Privacy:** **What it does not do:** It doesn't use heavy databases, requires no external dependencies if you use the pre-compiled binary, and **never** sends your data or keys anywhere over the internet—everything stays completely on your machine.
+## Why AES-128?
+rake uses Fernet symmetric encryption, which mandates AES-128 in CBC mode paired with HMAC-SHA256 authentication. This provides an optimal balance of robust security, built-in tamper resistance, and zero configuration overhead without needing to reinvent custom cryptographic primitives.
 
 ## How to Run It
-
 If you downloaded the pre-compiled binary file, open your terminal in the folder where the file is saved, make it executable, and run it with these commands:
 
 ```bash
 chmod +x rake
 ./rake
-
-Why AES-128?
-
-rake uses Fernet symmetric encryption, which mandates AES-128 in CBC mode paired with HMAC-SHA256 authentication. This provides an optimal balance of robust security, built-in tamper resistance, and zero configuration overhead without needing to reinvent custom cryptographic primitives.
