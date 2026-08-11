@@ -1,6 +1,6 @@
 # Rake
 
-A lightweight local cryptographic locker utility written in Python. 
+A lightweight local cryptographic locker utility written in Python. 🚀
 
 ## Why I Built This
 Most encryption tools or password managers are bloated, require cloud accounts, or force you through heavy setup processes just to securely hide a few sensitive text strings or passwords. I wanted something dead-simple, completely local, and lightweight that lives right on the machine without any internet connection or third-party tracking. 
