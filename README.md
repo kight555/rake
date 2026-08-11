@@ -16,6 +16,11 @@ rake uses Fernet symmetric encryption, which mandates AES-128 in CBC mode paired
 ## How to Run It
 If you downloaded the pre-compiled binary file, open your terminal in the folder where the file is saved, make it executable, and run it with these commands:
 
+
+### How to Run It
+
 ```bash
+cd ~/Downloads
+mv rake-v1.0.0 rake
 chmod +x rake
-./rake
+sudo mv rake /usr/local/bin/rake
