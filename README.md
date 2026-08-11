@@ -14,11 +14,7 @@ Most encryption tools or password managers are bloated, require cloud accounts, 
 rake uses Fernet symmetric encryption, which mandates AES-128 in CBC mode paired with HMAC-SHA256 authentication. This provides an optimal balance of robust security, built-in tamper resistance, and zero configuration overhead without needing to reinvent custom cryptographic primitives.
 
 ## How to Run It
-If you downloaded the pre-compiled binary file, open your terminal in the folder where the file is saved, make it executable, and run it with these commands:
-
-
-### How to Run It
-
+If you downloaded the pre-compiled binary file, open your terminal in the folder where the file is saved, make it executable, and run it with these commands
 ```bash
 cd ~/Downloads
 mv rake-v1.0.0 rake
