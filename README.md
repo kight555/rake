@@ -20,4 +20,5 @@ cd ~/Downloads
 mv rake-v1.0.0 rake
 chmod +x rake
 sudo mv rake /usr/local/bin/rake```
+
 Once installed, just type rake in your terminal.
