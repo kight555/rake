@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/TAURBIT/Crypto-Locker/main/assets/rake.png" alt="Logo" width="200">
+<img src="https://raw.githubusercontent.com/kight555/Crypto-Locker/main/assets/rake.png" alt="Logo" width="200">
 # Rake
 
 ![cryptography](https://img.shields.io/badge/topic-cryptography-blue?style=flat-square)
