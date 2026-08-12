@@ -10,9 +10,3 @@ If you find a bug or run into an issue, please open an issue on the GitHub repos
 
 ## Suggesting Enhancements
 If you have an idea for a new feature or improvement, feel free to open an issue to discuss it before jumping into code.
-
-## Pull Requests
-If you want to contribute code fixes or improvements directly:
-1. Fork the repository.
-2. Create a new branch for your changes.
-3. Submit a pull request detailing what you fixed or added.
