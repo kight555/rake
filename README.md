@@ -24,6 +24,7 @@ Most open-source encryption tools or password managers are bloated, require clou
 * **Key Derivation Function (KDF):** Uses **PBKDF2 with SHA-256** and 100,000 iterations combined with a unique random salt per entry to securely turn your master passphrase into a cryptographic key.
 * **Privacy Assurance:** **What it does not do:** It doesn't use heavy databases, requires no external dependencies if you use the pre-compiled standalone binary, and **never** sends your data or keys anywhere over the internet—everything stays completely on your local machine.
 
+
 ## Why AES-128?
 rake uses Fernet symmetric encryption, which mandates AES-128 in CBC mode paired with HMAC-SHA256 authentication. This provides an optimal balance of robust security, built-in tamper resistance, and zero configuration overhead without needing to reinvent custom cryptographic primitives.
 
@@ -38,3 +39,10 @@ sudo mv rake /usr/local/bin/rake
 ```
 
 Once installed, just type rake in your terminal.
+
+
+## Demo
+
+<p align="center">
+  <img src="rake-demo.svg" alt="Rake Demo" width="700"/>
+</p>
