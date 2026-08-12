@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="./.assets/rake.png" alt="Logo" width="200"><br><br>
+  <br>
+  <img src="./.assets/rake.png" alt="Rake Logo" width="250">
+  <br>
+  <br>
 </p>
 
 # Rake
