@@ -1,4 +1,7 @@
-<img src="./.assets/rake.png" alt="Logo" width="200">
+<p align="center">
+  <img src="./.assets/rake.png" alt="Logo" width="200"><br><br>
+</p>
+
 # Rake
 
 ![cryptography](https://img.shields.io/badge/topic-cryptography-blue?style=flat-square)
