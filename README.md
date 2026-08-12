@@ -16,7 +16,7 @@
 ![linux-utility](https://img.shields.io/badge/topic-linux--utility-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![encryption](https://img.shields.io/badge/topic-encryption-purple?style=flat-square)
 
-A lightweight local cryptographic locker utility and offline CLI secret store written in Python for Linux. 🚀
+A lightweight local cryptographic locker utility and offline CLI vault written in Python for Linux. 🚀
 
 ## Topics & Keywords
 `cryptography` • `cli` • `security-tools` • `python` • `local-first` • `offline` • `linux-utility` • `encryption`
