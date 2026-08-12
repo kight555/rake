@@ -19,7 +19,7 @@
 A lightweight local cryptographic locker utility and offline CLI vault written in Python for Linux. 🚀
 
 ## Topics & Keywords
-`cryptography` • `cli` • `security-tools` • `python` • `local-first` • `offline` • `linux-utility` • `encryption`
+`cryptography` • `cli` • `security-tools` • `python` • `local-first` • `offline` • `linux-utility` • `encryption` • `vault`
 
 ---
 
