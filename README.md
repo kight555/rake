@@ -36,10 +36,10 @@ Most open-source encryption tools or password managers are bloated, require clou
 rake uses Fernet symmetric encryption, which mandates AES-128 in CBC mode paired with HMAC-SHA256 authentication. This provides an optimal balance of robust security, built-in tamper resistance, and zero configuration overhead without needing to reinvent custom cryptographic primitives.
 
 
-### Storage & Security
+## Storage & Security
+
 * **Vault Location:** All encrypted secrets are saved as individual text files inside a hidden local directory (`~/.rake/`) within your home folder.
 * **Why Local-First:** Keeping files isolated here ensures your encrypted data stays entirely on your machine, private, and out of accidental public paths.
-
 
 
 ## How to Run It
