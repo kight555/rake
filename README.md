@@ -50,3 +50,6 @@ Once installed, just type rake in your terminal.
 
 ## Demo
 
+<p align="center">
+  <img src="./.assets/rake-demo.svg" alt="Rake Demo" width="700"/>
+</p>
