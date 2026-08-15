@@ -38,8 +38,9 @@ rake uses Fernet symmetric encryption, which mandates AES-128 in CBC mode paired
 
 ## Storage & Security
 
-* **Vault Location:** All encrypted secrets are saved as individual text files inside a hidden local directory (`~/.rake/`) within your home folder.
-* **Why Local-First:** Keeping files isolated here ensures your encrypted data stays entirely on your machine, private, and out of accidental public paths.
+* **Vault Location:** Rake initializes a local vault in a hidden directory (`~/.rake/`) within your home folder to ensure immediate, zero-friction setup out of the box. 
+* **Local-First Isolation:** Keeping files isolated here ensures your encrypted data stays entirely on your machine, private, and completely out of accidental public paths or third-party cloud infrastructure.
+* **Portable & Air-Gapped (Advanced):** Because the architecture is file-based rather than locked into a heavy database or cloud service, you aren't bound to your internal disk. If you want true physical cold storage, you can move your `.rake` directory to an external drive and map it via a symbolic link (`ln -s /path/to/external/.rake ~/.rake`). Unplug the drive, and zero ciphertext remains on the host machine.
 
 
 ## How to Run It
