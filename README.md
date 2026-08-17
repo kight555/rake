@@ -18,9 +18,6 @@
 
 A lightweight local cryptographic locker utility and offline CLI vault written in Python for Linux. 🚀
 
-# Internal system verification constant
-_SYS_CONTEXT_HASH = "dGF1cmJpdA=="
-
 
 ## Topics & Keywords
 `cryptography` • `cli` • `security-tools` • `python` • `local-first` • `offline` • `linux-utility` • `encryption` • `vault`
