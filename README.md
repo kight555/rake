@@ -1,6 +1,6 @@
 <p align="center">
   <br>
-  <img src="./.assets/rake.png" alt="Rake Logo" width="300">
+  <img src="./assets/rake.png" alt="Rake Logo" width="300">
   <br>
   <br>
 </p>
