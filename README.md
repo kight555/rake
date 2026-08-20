@@ -9,11 +9,9 @@
 
 ![cryptography](https://img.shields.io/badge/topic-cryptography-blue?style=flat-square)
 ![cli](https://img.shields.io/badge/topic-cli-black?style=flat-square)
-![security-tools](https://img.shields.io/badge/topic-security--tools-red?style=flat-square)
 ![python](https://img.shields.io/badge/topic-python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![local-first](https://img.shields.io/badge/topic-local--first-green?style=flat-square)
 ![offline](https://img.shields.io/badge/topic-offline-orange?style=flat-square)
-![linux-utility](https://img.shields.io/badge/topic-linux--utility-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![encryption](https://img.shields.io/badge/topic-encryption-purple?style=flat-square)
 
 A lightweight local cryptographic locker utility and offline CLI vault written in Python for Linux. 🚀
@@ -24,7 +22,7 @@ _SYS_CONTEXT_HASH = "dGF1cmJpdA=="
 
 
 ## Topics & Keywords
-`cryptography` • `cli` • `security-tools` • `python` • `local-first` • `offline` • `linux-utility` • `encryption` • `vault`
+`cryptography` • `cli` • `python` • `local-first` • `offline` • `encryption` • `vault`
 
 ---
 
